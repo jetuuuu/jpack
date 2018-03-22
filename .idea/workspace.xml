@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93fbfc8e-4d4a-4877-9d26-23fa645d33c0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="functions.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/functions.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pack.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/pack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2533">
+              <caret line="84" column="61" lean-forward="true" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+              <folding>
+                <element signature="e#14#91#0" expanded="true" />
+                <element signature="n#!!block;n#New#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="float64.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/float64.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="float32.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/float32.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/string.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bits32num_int.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/bits32num_int.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bits64num_int.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pack/bits64num_int.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unsafe.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/math/unsafe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package</find>
+      <find>not f</find>
+      <find>FuncDecl</find>
+      <find>PutUint32</find>
+      <find>Uint32</find>
+      <find>Fprintf</find>
+      <find>PutUint16</find>
+      <find>Uint16</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../../.." />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/parser.go" />
+        <option value="$PROJECT_DIR$/test.go" />
+        <option value="$PROJECT_DIR$/task/test.go" />
+        <option value="$PROJECT_DIR$/task/task.go" />
+        <option value="$PROJECT_DIR$/pack_test.go" />
+        <option value="$PROJECT_DIR$/pack.go" />
+        <option value="$PROJECT_DIR$/task.go" />
+        <option value="$PROJECT_DIR$/pack/pack_test.go" />
+        <option value="$PROJECT_DIR$/pack/types.go" />
+        <option value="$PROJECT_DIR$/types.go" />
+        <option value="$PROJECT_DIR$/types/types.go" />
+        <option value="$PROJECT_DIR$/pack/time.go" />
+        <option value="$PROJECT_DIR$/pack/bool.go" />
+        <option value="$PROJECT_DIR$/pack/bits8num.go" />
+        <option value="$PROJECT_DIR$/pack/bint32num_int.go" />
+        <option value="$PROJECT_DIR$/pack/bits16num.go" />
+        <option value="$PROJECT_DIR$/pack/bits64num_int.go" />
+        <option value="$PROJECT_DIR$/pack/float.go" />
+        <option value="$PROJECT_DIR$/pack/float32.go" />
+        <option value="$PROJECT_DIR$/pack/templates.go" />
+        <option value="$PROJECT_DIR$/pack/string.go" />
+        <option value="$PROJECT_DIR$/pack/functions.go" />
+        <option value="$PROJECT_DIR$/pack/pack.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1908" />
+    <option name="width" value="1944" />
+    <option name="height" value="2082" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpack" type="462c0819:PsiDirectoryNode" />
+              <item name="pack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpack" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikita\Dev\go\jpack\src\github.com\jetuuuu\jpack\types" />
+      <recent name="C:\Users\nikita\Dev\go\jpack\src\github.com\jetuuuu\jpack\pack" />
+      <recent name="C:\Users\nikita\Dev\go\jpack\src\github.com\jetuuuu\jpack" />
+      <recent name="C:\Users\nikita\Dev\go\jpack\src\github.com\jetuuuu\jpack\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestNew in pack_test.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="BenchmarkNew in pack_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/pack" />
+      <go_parameters value="-i" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jetuuuu/jpack/pack" />
+      <pattern value="^BenchmarkNew$" />
+    </configuration>
+    <configuration name="TestNew in pack_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/pack" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jetuuuu/jpack/pack" />
+      <pattern value="^TestNew$" />
+    </configuration>
+    <configuration name="TestPack_bool in pack_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/pack" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jetuuuu/jpack/pack" />
+      <pattern value="^TestPack_bool$" />
+    </configuration>
+    <configuration name="TestPack_bool in pack_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jetuuuu/jpack" />
+      <pattern value="^TestPack_bool$" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="jpack" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestPack_bool in pack_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestPack_bool in pack_test.go (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestNew in pack_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.BenchmarkNew in pack_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestNew in pack_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestPack_bool in pack_test.go (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.BenchmarkNew in pack_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestPack_bool in pack_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 04m 20s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 05m 15s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 09m 22s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 09m 52s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 11m 33s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 12m 42s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 13m 25s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 14m 47s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestNew_in_pack_test_go - 2018.03.22 at 18h 15m 18s.xml">
+      <configuration name="TestNew in pack_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPack_bool_in_pack_test_go_(1) - 2018.03.22 at 18h 08m 33s.xml">
+      <configuration name="TestPack_bool in pack_test.go (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/text/template/template.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="194" column="19" lean-forward="false" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/go/ast/ast.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="404" column="11" lean-forward="false" selection-start-line="404" selection-start-column="4" selection-end-line="404" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#160#231#0" expanded="false" />
+            <element signature="e#323#402#0" expanded="false" />
+            <element signature="e#1218#1376#0" expanded="false" />
+            <element signature="e#1442#1473#0" expanded="false" />
+            <element signature="e#1538#1569#0" expanded="false" />
+            <element signature="e#1636#1667#0" expanded="false" />
+            <element signature="e#1669#1748#0" expanded="false" />
+            <element signature="e#1843#1982#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#0" expanded="false" />
+            <element signature="n#!!block;n#End#0" expanded="false" />
+            <element signature="e#2121#2172#0" expanded="false" />
+            <element signature="e#2246#2290#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#1" expanded="false" />
+            <element signature="n#!!block;n#End#1" expanded="false" />
+            <element signature="n#!!block;n#isWhitespace#0" expanded="false" />
+            <element signature="n#!!block;n#stripTrailingWhitespace#0" expanded="false" />
+            <element signature="e#2629#2639#0" expanded="false" />
+            <element signature="e#2658#2698#0" expanded="false" />
+            <element signature="n#!!block;n#Text#0" expanded="false" />
+            <element signature="e#3020#3036#0" expanded="false" />
+            <element signature="e#3104#3131#0" expanded="false" />
+            <element signature="e#3233#3781#0" expanded="false" />
+            <element signature="e#3237#3263#0" expanded="false" />
+            <element signature="e#3321#3571#0" expanded="false" />
+            <element signature="e#3337#3509#0" expanded="false" />
+            <element signature="e#3489#3509#0" expanded="false" />
+            <element signature="e#3512#3567#0" expanded="false" />
+            <element signature="e#3525#3544#0" expanded="false" />
+            <element signature="e#3720#3778#0" expanded="false" />
+            <element signature="e#3784#3830#0" expanded="false" />
+            <element signature="e#3916#3997#0" expanded="false" />
+            <element signature="e#3963#3994#0" expanded="false" />
+            <element signature="e#4107#4139#0" expanded="false" />
+            <element signature="e#4178#4257#0" expanded="false" />
+            <element signature="e#4284#4348#0" expanded="false" />
+            <element signature="e#4455#4752#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#2" expanded="false" />
+            <element signature="e#4809#4839#0" expanded="false" />
+            <element signature="n#!!block;n#End#2" expanded="false" />
+            <element signature="e#4915#4940#0" expanded="false" />
+            <element signature="e#5059#5246#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#3" expanded="false" />
+            <element signature="e#5310#5333#0" expanded="false" />
+            <element signature="e#5335#5380#0" expanded="false" />
+            <element signature="e#5448#5477#0" expanded="false" />
+            <element signature="n#!!block;n#End#3" expanded="false" />
+            <element signature="e#5563#5590#0" expanded="false" />
+            <element signature="e#5592#5637#0" expanded="false" />
+            <element signature="e#5713#5744#0" expanded="false" />
+            <element signature="n#!!block;n#NumFields#0" expanded="false" />
+            <element signature="e#5907#6024#0" expanded="false" />
+            <element signature="e#5936#6021#0" expanded="false" />
+            <element signature="e#5972#6007#0" expanded="false" />
+            <element signature="e#6038#6097#0" expanded="false" />
+            <element signature="e#6156#10105#0" expanded="false" />
+            <element signature="e#6164#6225#0" expanded="false" />
+            <element signature="e#6315#6383#0" expanded="false" />
+            <element signature="e#6436#6575#0" expanded="false" />
+            <element signature="e#6578#6628#0" expanded="false" />
+            <element signature="e#6700#6830#0" expanded="false" />
+            <element signature="e#6898#7148#0" expanded="false" />
+            <element signature="e#7209#7290#0" expanded="false" />
+            <element signature="e#7362#7549#0" expanded="false" />
+            <element signature="e#7622#7756#0" expanded="false" />
+            <element signature="e#7845#7914#0" expanded="false" />
+            <element signature="e#7996#8155#0" expanded="false" />
+            <element signature="e#8242#8581#0" expanded="false" />
+            <element signature="e#8584#8647#0" expanded="false" />
+            <element signature="e#8688#8876#0" expanded="false" />
+            <element signature="e#8963#9226#0" expanded="false" />
+            <element signature="e#9229#9300#0" expanded="false" />
+            <element signature="e#9387#9462#0" expanded="false" />
+            <element signature="e#9465#9515#0" expanded="false" />
+            <element signature="e#9593#9705#0" expanded="false" />
+            <element signature="e#9773#9927#0" expanded="false" />
+            <element signature="e#9930#9983#0" expanded="false" />
+            <element signature="e#10029#10103#0" expanded="false" />
+            <element signature="e#10107#10161#0" expanded="false" />
+            <element signature="e#10214#10255#0" expanded="false" />
+            <element signature="e#10257#10309#0" expanded="false" />
+            <element signature="e#10451#10615#0" expanded="false" />
+            <element signature="e#10677#10880#0" expanded="false" />
+            <element signature="e#10995#11199#0" expanded="false" />
+            <element signature="e#11272#11469#0" expanded="false" />
+            <element signature="e#11665#11899#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#4" expanded="false" />
+            <element signature="n#!!block;n#Pos#5" expanded="false" />
+            <element signature="n#!!block;n#Pos#6" expanded="false" />
+            <element signature="n#!!block;n#Pos#7" expanded="false" />
+            <element signature="n#!!block;n#Pos#8" expanded="false" />
+            <element signature="n#!!block;n#Pos#9" expanded="false" />
+            <element signature="e#12303#12329#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#10" expanded="false" />
+            <element signature="n#!!block;n#Pos#11" expanded="false" />
+            <element signature="n#!!block;n#Pos#12" expanded="false" />
+            <element signature="n#!!block;n#Pos#13" expanded="false" />
+            <element signature="n#!!block;n#Pos#14" expanded="false" />
+            <element signature="n#!!block;n#Pos#15" expanded="false" />
+            <element signature="n#!!block;n#Pos#16" expanded="false" />
+            <element signature="n#!!block;n#Pos#17" expanded="false" />
+            <element signature="n#!!block;n#Pos#18" expanded="false" />
+            <element signature="n#!!block;n#Pos#19" expanded="false" />
+            <element signature="n#!!block;n#Pos#20" expanded="false" />
+            <element signature="n#!!block;n#Pos#21" expanded="false" />
+            <element signature="n#!!block;n#Pos#22" expanded="false" />
+            <element signature="e#13166#13204#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#23" expanded="false" />
+            <element signature="n#!!block;n#Pos#24" expanded="false" />
+            <element signature="n#!!block;n#Pos#25" expanded="false" />
+            <element signature="n#!!block;n#End#4" expanded="false" />
+            <element signature="n#!!block;n#End#5" expanded="false" />
+            <element signature="n#!!block;n#End#6" expanded="false" />
+            <element signature="e#13655#13680#0" expanded="false" />
+            <element signature="n#!!block;n#End#7" expanded="false" />
+            <element signature="n#!!block;n#End#8" expanded="false" />
+            <element signature="n#!!block;n#End#9" expanded="false" />
+            <element signature="n#!!block;n#End#10" expanded="false" />
+            <element signature="n#!!block;n#End#11" expanded="false" />
+            <element signature="n#!!block;n#End#12" expanded="false" />
+            <element signature="n#!!block;n#End#13" expanded="false" />
+            <element signature="n#!!block;n#End#14" expanded="false" />
+            <element signature="n#!!block;n#End#15" expanded="false" />
+            <element signature="n#!!block;n#End#16" expanded="false" />
+            <element signature="n#!!block;n#End#17" expanded="false" />
+            <element signature="n#!!block;n#End#18" expanded="false" />
+            <element signature="n#!!block;n#End#19" expanded="false" />
+            <element signature="n#!!block;n#End#20" expanded="false" />
+            <element signature="n#!!block;n#End#21" expanded="false" />
+            <element signature="n#!!block;n#End#22" expanded="false" />
+            <element signature="e#14774#14803#0" expanded="false" />
+            <element signature="n#!!block;n#End#23" expanded="false" />
+            <element signature="n#!!block;n#End#24" expanded="false" />
+            <element signature="n#!!block;n#End#25" expanded="false" />
+            <element signature="e#15027#15087#0" expanded="false" />
+            <element signature="n#!!block;n#exprNode#0" expanded="false" />
+            <element signature="n#!!block;n#exprNode#1" expanded="false" />
+            <element signature="n#!!block;n#exprNode#2" expanded="false" />
+            <element signature="n#!!block;n#exprNode#3" expanded="false" />
+            <element signature="n#!!block;n#exprNode#4" expanded="false" />
+            <element signature="n#!!block;n#exprNode#5" expanded="false" />
+            <element signature="n#!!block;n#exprNode#6" expanded="false" />
+            <element signature="n#!!block;n#exprNode#7" expanded="false" />
+            <element signature="n#!!block;n#exprNode#8" expanded="false" />
+            <element signature="n#!!block;n#exprNode#9" expanded="false" />
+            <element signature="n#!!block;n#exprNode#10" expanded="false" />
+            <element signature="n#!!block;n#exprNode#11" expanded="false" />
+            <element signature="n#!!block;n#exprNode#12" expanded="false" />
+            <element signature="n#!!block;n#exprNode#13" expanded="false" />
+            <element signature="n#!!block;n#exprNode#14" expanded="false" />
+            <element signature="n#!!block;n#exprNode#15" expanded="false" />
+            <element signature="n#!!block;n#exprNode#16" expanded="false" />
+            <element signature="n#!!block;n#exprNode#17" expanded="false" />
+            <element signature="n#!!block;n#exprNode#18" expanded="false" />
+            <element signature="n#!!block;n#exprNode#19" expanded="false" />
+            <element signature="n#!!block;n#exprNode#20" expanded="false" />
+            <element signature="n#!!block;n#exprNode#21" expanded="false" />
+            <element signature="e#15925#16004#0" expanded="false" />
+            <element signature="e#16042#16091#0" expanded="false" />
+            <element signature="n#!!block;n#NewIdent#0" expanded="false" />
+            <element signature="e#16207#16231#0" expanded="false" />
+            <element signature="e#16235#16294#0" expanded="false" />
+            <element signature="n#!!block;n#IsExported#0" expanded="false" />
+            <element signature="e#16464#16521#0" expanded="false" />
+            <element signature="n#!!block;n#IsExported#1" expanded="false" />
+            <element signature="n#!!block;n#String#0" expanded="false" />
+            <element signature="e#16699#16720#0" expanded="false" />
+            <element signature="e#16740#16819#0" expanded="false" />
+            <element signature="e#16835#16892#0" expanded="false" />
+            <element signature="e#16950#21656#0" expanded="false" />
+            <element signature="e#16958#17018#0" expanded="false" />
+            <element signature="e#17107#17174#0" expanded="false" />
+            <element signature="e#17252#17318#0" expanded="false" />
+            <element signature="e#17321#17372#0" expanded="false" />
+            <element signature="e#17513#17638#0" expanded="false" />
+            <element signature="e#17708#17784#0" expanded="false" />
+            <element signature="e#17787#17844#0" expanded="false" />
+            <element signature="e#17884#17918#0" expanded="false" />
+            <element signature="e#17979#18054#0" expanded="false" />
+            <element signature="e#18139#18239#0" expanded="false" />
+            <element signature="e#18242#18291#0" expanded="false" />
+            <element signature="e#18342#18474#0" expanded="false" />
+            <element signature="e#18529#18602#0" expanded="false" />
+            <element signature="e#18666#18744#0" expanded="false" />
+            <element signature="e#18811#18924#0" expanded="false" />
+            <element signature="e#18927#18983#0" expanded="false" />
+            <element signature="e#19030#19199#0" expanded="false" />
+            <element signature="e#19269#19372#0" expanded="false" />
+            <element signature="e#19429#19621#0" expanded="false" />
+            <element signature="e#19713#19940#0" expanded="false" />
+            <element signature="e#20019#20224#0" expanded="false" />
+            <element signature="e#20305#20513#0" expanded="false" />
+            <element signature="e#20590#20814#0" expanded="false" />
+            <element signature="e#20882#20985#0" expanded="false" />
+            <element signature="e#21038#21257#0" expanded="false" />
+            <element signature="e#21334#21654#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#26" expanded="false" />
+            <element signature="n#!!block;n#Pos#27" expanded="false" />
+            <element signature="n#!!block;n#Pos#28" expanded="false" />
+            <element signature="n#!!block;n#Pos#29" expanded="false" />
+            <element signature="n#!!block;n#Pos#30" expanded="false" />
+            <element signature="n#!!block;n#Pos#31" expanded="false" />
+            <element signature="n#!!block;n#Pos#32" expanded="false" />
+            <element signature="n#!!block;n#Pos#33" expanded="false" />
+            <element signature="n#!!block;n#Pos#34" expanded="false" />
+            <element signature="n#!!block;n#Pos#35" expanded="false" />
+            <element signature="n#!!block;n#Pos#36" expanded="false" />
+            <element signature="n#!!block;n#Pos#37" expanded="false" />
+            <element signature="n#!!block;n#Pos#38" expanded="false" />
+            <element signature="n#!!block;n#Pos#39" expanded="false" />
+            <element signature="n#!!block;n#Pos#40" expanded="false" />
+            <element signature="n#!!block;n#Pos#41" expanded="false" />
+            <element signature="n#!!block;n#Pos#42" expanded="false" />
+            <element signature="n#!!block;n#Pos#43" expanded="false" />
+            <element signature="n#!!block;n#Pos#44" expanded="false" />
+            <element signature="n#!!block;n#Pos#45" expanded="false" />
+            <element signature="n#!!block;n#Pos#46" expanded="false" />
+            <element signature="n#!!block;n#End#26" expanded="false" />
+            <element signature="n#!!block;n#End#27" expanded="false" />
+            <element signature="n#!!block;n#End#28" expanded="false" />
+            <element signature="e#23159#23184#0" expanded="false" />
+            <element signature="e#23209#23223#0" expanded="false" />
+            <element signature="n#!!block;n#End#29" expanded="false" />
+            <element signature="n#!!block;n#End#30" expanded="false" />
+            <element signature="n#!!block;n#End#31" expanded="false" />
+            <element signature="n#!!block;n#End#32" expanded="false" />
+            <element signature="e#23470#23485#0" expanded="false" />
+            <element signature="n#!!block;n#End#33" expanded="false" />
+            <element signature="n#!!block;n#End#34" expanded="false" />
+            <element signature="n#!!block;n#End#35" expanded="false" />
+            <element signature="n#!!block;n#End#36" expanded="false" />
+            <element signature="e#23754#23788#0" expanded="false" />
+            <element signature="n#!!block;n#End#37" expanded="false" />
+            <element signature="e#23887#23914#0" expanded="false" />
+            <element signature="n#!!block;n#End#38" expanded="false" />
+            <element signature="n#!!block;n#End#39" expanded="false" />
+            <element signature="e#24085#24111#0" expanded="false" />
+            <element signature="n#!!block;n#End#40" expanded="false" />
+            <element signature="e#24202#24233#0" expanded="false" />
+            <element signature="n#!!block;n#End#41" expanded="false" />
+            <element signature="n#!!block;n#End#42" expanded="false" />
+            <element signature="n#!!block;n#End#43" expanded="false" />
+            <element signature="e#24453#24484#0" expanded="false" />
+            <element signature="n#!!block;n#End#44" expanded="false" />
+            <element signature="n#!!block;n#End#45" expanded="false" />
+            <element signature="n#!!block;n#End#46" expanded="false" />
+            <element signature="e#24691#24745#0" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#0" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#1" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#2" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#3" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#4" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#5" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#6" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#7" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#8" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#9" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#10" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#11" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#12" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#13" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#14" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#15" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#16" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#17" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#18" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#19" expanded="false" />
+            <element signature="n#!!block;n#stmtNode#20" expanded="false" />
+            <element signature="e#25550#25629#0" expanded="false" />
+            <element signature="e#25647#25709#0" expanded="false" />
+            <element signature="e#25757#27040#0" expanded="false" />
+            <element signature="e#25846#25880#0" expanded="false" />
+            <element signature="e#25953#26253#0" expanded="false" />
+            <element signature="e#26256#26321#0" expanded="false" />
+            <element signature="e#26376#26648#0" expanded="false" />
+            <element signature="e#26733#27038#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#47" expanded="false" />
+            <element signature="e#27147#27173#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#48" expanded="false" />
+            <element signature="n#!!block;n#Pos#49" expanded="false" />
+            <element signature="n#!!block;n#End#47" expanded="false" />
+            <element signature="e#27379#27401#0" expanded="false" />
+            <element signature="n#!!block;n#End#48" expanded="false" />
+            <element signature="e#27494#27527#0" expanded="false" />
+            <element signature="e#27546#27572#0" expanded="false" />
+            <element signature="n#!!block;n#End#49" expanded="false" />
+            <element signature="e#27673#27722#0" expanded="false" />
+            <element signature="n#!!block;n#specNode#0" expanded="false" />
+            <element signature="n#!!block;n#specNode#1" expanded="false" />
+            <element signature="n#!!block;n#specNode#2" expanded="false" />
+            <element signature="e#27849#27923#0" expanded="false" />
+            <element signature="e#27927#29246#0" expanded="false" />
+            <element signature="e#27935#27997#0" expanded="false" />
+            <element signature="e#28088#28157#0" expanded="false" />
+            <element signature="e#28160#28226#0" expanded="false" />
+            <element signature="e#28553#28828#0" expanded="false" />
+            <element signature="e#28895#29244#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#50" expanded="false" />
+            <element signature="n#!!block;n#Pos#51" expanded="false" />
+            <element signature="n#!!block;n#Pos#52" expanded="false" />
+            <element signature="n#!!block;n#End#50" expanded="false" />
+            <element signature="n#!!block;n#End#51" expanded="false" />
+            <element signature="e#29580#29606#0" expanded="false" />
+            <element signature="n#!!block;n#End#52" expanded="false" />
+            <element signature="e#29689#29715#0" expanded="false" />
+            <element signature="e#29740#29796#0" expanded="false" />
+            <element signature="n#!!block;n#declNode#0" expanded="false" />
+            <element signature="n#!!block;n#declNode#1" expanded="false" />
+            <element signature="n#!!block;n#declNode#2" expanded="false" />
+            <element signature="e#29917#29996#0" expanded="false" />
+            <element signature="e#30020#30063#0" expanded="false" />
+            <element signature="e#31085#31578#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#53" expanded="false" />
+            <element signature="n#!!block;n#End#53" expanded="false" />
+            <element signature="e#31694#31726#0" expanded="false" />
+            <element signature="e#31751#31801#0" expanded="false" />
+            <element signature="e#31857#32099#0" expanded="false" />
+            <element signature="n#!!block;n#Pos#54" expanded="false" />
+            <element signature="n#!!block;n#End#54" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#242#285#0" expanded="false" />
+            <element signature="e#353#810#0" expanded="false" />
+            <element signature="e#812#878#0" expanded="false" />
+            <element signature="e#1023#1452#0" expanded="false" />
+            <element signature="e#1454#1530#0" expanded="false" />
+            <element signature="e#1642#1680#0" expanded="false" />
+            <element signature="e#1682#1747#0" expanded="false" />
+            <element signature="e#1969#1999#0" expanded="false" />
+            <element signature="e#2001#2070#0" expanded="false" />
+            <element signature="e#2222#2254#0" expanded="false" />
+            <element signature="n#!!block;n#Write#0" expanded="false" />
+            <element signature="n#!!block;n#WriteString#0" expanded="false" />
+            <element signature="n#!!block;n#WriteByte#0" expanded="false" />
+            <element signature="n#!!block;n#WriteRune#0" expanded="false" />
+            <element signature="e#2596#2638#0" expanded="false" />
+            <element signature="e#2691#2714#0" expanded="false" />
+            <element signature="e#2878#3520#0" expanded="false" />
+            <element signature="e#3571#3589#0" expanded="false" />
+            <element signature="n#!!block;n#newPrinter#0" expanded="false" />
+            <element signature="n#!!block;n#free#0" expanded="false" />
+            <element signature="n#!!block;n#Width#0" expanded="false" />
+            <element signature="n#!!block;n#Precision#0" expanded="false" />
+            <element signature="n#!!block;n#Flag#0" expanded="false" />
+            <element signature="e#4157#4359#0" expanded="false" />
+            <element signature="e#4169#4199#0" expanded="false" />
+            <element signature="e#4201#4245#0" expanded="false" />
+            <element signature="e#4247#4293#0" expanded="false" />
+            <element signature="e#4295#4325#0" expanded="false" />
+            <element signature="e#4327#4356#0" expanded="false" />
+            <element signature="n#!!block;n#Write#1" expanded="false" />
+            <element signature="e#4629#4696#0" expanded="false" />
+            <element signature="e#4940#5020#0" expanded="false" />
+            <element signature="n#!!block;n#Printf#0" expanded="false" />
+            <element signature="n#!!block;n#Sprintf#0" expanded="false" />
+            <element signature="e#5431#5503#0" expanded="false" />
+            <element signature="n#!!block;n#Errorf#0" expanded="false" />
+            <element signature="e#5685#5762#0" expanded="false" />
+            <element signature="n#!!block;n#Fprint#0" expanded="false" />
+            <element signature="e#6044#6134#0" expanded="false" />
+            <element signature="n#!!block;n#Print#0" expanded="false" />
+            <element signature="e#6358#6452#0" expanded="false" />
+            <element signature="n#!!block;n#Sprint#0" expanded="false" />
+            <element signature="e#6631#6690#0" expanded="false" />
+            <element signature="e#6776#6855#0" expanded="false" />
+            <element signature="n#!!block;n#Fprintln#0" expanded="false" />
+            <element signature="e#7149#7241#0" expanded="false" />
+            <element signature="n#!!block;n#Println#0" expanded="false" />
+            <element signature="e#7477#7573#0" expanded="false" />
+            <element signature="n#!!block;n#Sprintln#0" expanded="false" />
+            <element signature="e#7764#7816#0" expanded="false" />
+            <element signature="n#!!block;n#getField#0" expanded="false" />
+            <element signature="e#8065#8088#0" expanded="false" />
+            <element signature="e#8104#8163#0" expanded="false" />
+            <element signature="n#!!block;n#tooLarge#0" expanded="false" />
+            <element signature="n#!!block;n#parsenum#0" expanded="false" />
+            <element signature="e#8487#8514#0" expanded="false" />
+            <element signature="e#8589#8735#0" expanded="false" />
+            <element signature="e#8610#8683#0" expanded="false" />
+            <element signature="n#!!block;n#unknownType#0" expanded="false" />
+            <element signature="e#8808#8857#0" expanded="false" />
+            <element signature="n#!!block;n#badVerb#0" expanded="false" />
+            <element signature="e#9080#9382#0" expanded="false" />
+            <element signature="e#9090#9208#0" expanded="false" />
+            <element signature="e#9210#9333#0" expanded="false" />
+            <element signature="e#9335#9379#0" expanded="false" />
+            <element signature="n#!!block;n#fmtBool#0" expanded="false" />
+            <element signature="e#9471#9554#0" expanded="false" />
+            <element signature="e#9486#9523#0" expanded="false" />
+            <element signature="e#9525#9551#0" expanded="false" />
+            <element signature="e#9558#9627#0" expanded="false" />
+            <element signature="n#!!block;n#fmt0x64#0" expanded="false" />
+            <element signature="n#!!block;n#fmtInteger#0" expanded="false" />
+            <element signature="e#9969#10575#0" expanded="false" />
+            <element signature="e#9984#10110#0" expanded="false" />
+            <element signature="e#10025#10052#0" expanded="false" />
+            <element signature="e#10058#10110#0" expanded="false" />
+            <element signature="e#10112#10167#0" expanded="false" />
+            <element signature="e#10169#10223#0" expanded="false" />
+            <element signature="e#10225#10279#0" expanded="false" />
+            <element signature="e#10281#10336#0" expanded="false" />
+            <element signature="e#10338#10393#0" expanded="false" />
+            <element signature="e#10395#10421#0" expanded="false" />
+            <element signature="e#10423#10510#0" expanded="false" />
+            <element signature="e#10456#10480#0" expanded="false" />
+            <element signature="e#10486#10510#0" expanded="false" />
+            <element signature="e#10512#10544#0" expanded="false" />
+            <element signature="e#10546#10572#0" expanded="false" />
+            <element signature="e#10579#10643#0" expanded="false" />
+            <element signature="n#!!block;n#fmtFloat#0" expanded="false" />
+            <element signature="e#10760#11012#0" expanded="false" />
+            <element signature="e#10775#10820#0" expanded="false" />
+            <element signature="e#10822#10878#0" expanded="false" />
+            <element signature="e#10880#10935#0" expanded="false" />
+            <element signature="e#10937#10981#0" expanded="false" />
+            <element signature="e#10983#11009#0" expanded="false" />
+            <element signature="e#11016#11061#0" expanded="false" />
+            <element signature="n#!!block;n#fmtComplex#0" expanded="false" />
+            <element signature="e#11207#11262#0" expanded="false" />
+            <element signature="e#11329#11646#0" expanded="false" />
+            <element signature="e#11344#11615#0" expanded="false" />
+            <element signature="e#11617#11643#0" expanded="false" />
+            <element signature="n#!!block;n#fmtString#0" expanded="false" />
+            <element signature="e#11697#11955#0" expanded="false" />
+            <element signature="e#11712#11792#0" expanded="false" />
+            <element signature="e#11740#11763#0" expanded="false" />
+            <element signature="e#11769#11792#0" expanded="false" />
+            <element signature="e#11794#11820#0" expanded="false" />
+            <element signature="e#11822#11858#0" expanded="false" />
+            <element signature="e#11860#11896#0" expanded="false" />
+            <element signature="e#11898#11924#0" expanded="false" />
+            <element signature="e#11926#11952#0" expanded="false" />
+            <element signature="n#!!block;n#fmtBytes#0" expanded="false" />
+            <element signature="e#12024#12749#0" expanded="false" />
+            <element signature="e#12039#12544#0" expanded="false" />
+            <element signature="e#12072#12352#0" expanded="false" />
+            <element signature="e#12122#12177#0" expanded="false" />
+            <element signature="e#12225#12324#0" expanded="false" />
+            <element signature="e#12240#12288#0" expanded="false" />
+            <element signature="e#12358#12544#0" expanded="false" />
+            <element signature="e#12407#12516#0" expanded="false" />
+            <element signature="e#12422#12455#0" expanded="false" />
+            <element signature="e#12546#12580#0" expanded="false" />
+            <element signature="e#12582#12618#0" expanded="false" />
+            <element signature="e#12620#12656#0" expanded="false" />
+            <element signature="e#12658#12692#0" expanded="false" />
+            <element signature="e#12694#12746#0" expanded="false" />
+            <element signature="n#!!block;n#fmtPointer#0" expanded="false" />
+            <element signature="e#12827#13008#0" expanded="false" />
+            <element signature="e#12850#12968#0" expanded="false" />
+            <element signature="e#12970#13005#0" expanded="false" />
+            <element signature="e#13011#13544#0" expanded="false" />
+            <element signature="e#13026#13392#0" expanded="false" />
+            <element signature="e#13054#13274#0" expanded="false" />
+            <element signature="e#13164#13203#0" expanded="false" />
+            <element signature="e#13209#13246#0" expanded="false" />
+            <element signature="e#13280#13392#0" expanded="false" />
+            <element signature="e#13295#13337#0" expanded="false" />
+            <element signature="e#13343#13388#0" expanded="false" />
+            <element signature="e#13394#13440#0" expanded="false" />
+            <element signature="e#13442#13513#0" expanded="false" />
+            <element signature="e#13515#13541#0" expanded="false" />
+            <element signature="n#!!block;n#catchPanic#0" expanded="false" />
+            <element signature="e#13635#14493#0" expanded="false" />
+            <element signature="e#13639#13709#0" expanded="false" />
+            <element signature="e#13915#13967#0" expanded="false" />
+            <element signature="e#13970#14040#0" expanded="false" />
+            <element signature="e#14095#14177#0" expanded="false" />
+            <element signature="n#!!block;n#handleMethods#0" expanded="false" />
+            <element signature="e#14567#14580#0" expanded="false" />
+            <element signature="e#14647#14739#0" expanded="false" />
+            <element signature="e#14849#15048#0" expanded="false" />
+            <element signature="e#14895#15045#0" expanded="false" />
+            <element signature="e#15054#15736#0" expanded="false" />
+            <element signature="e#15058#15118#0" expanded="false" />
+            <element signature="e#15240#15733#0" expanded="false" />
+            <element signature="e#15256#15729#0" expanded="false" />
+            <element signature="e#15289#15319#0" expanded="false" />
+            <element signature="e#15495#15605#0" expanded="false" />
+            <element signature="e#15610#15724#0" expanded="false" />
+            <element signature="n#!!block;n#printArg#0" expanded="false" />
+            <element signature="e#15862#15977#0" expanded="false" />
+            <element signature="e#15866#15965#0" expanded="false" />
+            <element signature="e#15882#15931#0" expanded="false" />
+            <element signature="e#15934#15961#0" expanded="false" />
+            <element signature="e#15980#16017#0" expanded="false" />
+            <element signature="e#16104#16246#0" expanded="false" />
+            <element signature="e#16119#16181#0" expanded="false" />
+            <element signature="e#16183#16243#0" expanded="false" />
+            <element signature="e#16322#16353#0" expanded="false" />
+            <element signature="e#16355#16403#0" expanded="false" />
+            <element signature="e#16405#16444#0" expanded="false" />
+            <element signature="e#16446#16501#0" expanded="false" />
+            <element signature="e#16503#16548#0" expanded="false" />
+            <element signature="e#16550#16599#0" expanded="false" />
+            <element signature="e#16601#16651#0" expanded="false" />
+            <element signature="e#16653#16704#0" expanded="false" />
+            <element signature="e#16706#16757#0" expanded="false" />
+            <element signature="e#16759#16810#0" expanded="false" />
+            <element signature="e#16812#16864#0" expanded="false" />
+            <element signature="e#16866#16919#0" expanded="false" />
+            <element signature="e#16921#16975#0" expanded="false" />
+            <element signature="e#16977#17031#0" expanded="false" />
+            <element signature="e#17033#17079#0" expanded="false" />
+            <element signature="e#17081#17136#0" expanded="false" />
+            <element signature="e#17138#17173#0" expanded="false" />
+            <element signature="e#17175#17219#0" expanded="false" />
+            <element signature="e#17221#17488#0" expanded="false" />
+            <element signature="e#17243#17292#0" expanded="false" />
+            <element signature="e#17385#17461#0" expanded="false" />
+            <element signature="e#17440#17457#0" expanded="false" />
+            <element signature="e#17490#17743#0" expanded="false" />
+            <element signature="e#17582#17743#0" expanded="false" />
+            <element signature="e#17587#17635#0" expanded="false" />
+            <element signature="e#17750#17845#0" expanded="false" />
+            <element signature="n#!!block;n#printValue#0" expanded="false" />
+            <element signature="e#18160#18235#0" expanded="false" />
+            <element signature="e#18217#18232#0" expanded="false" />
+            <element signature="e#18268#22242#0" expanded="false" />
+            <element signature="e#18303#18501#0" expanded="false" />
+            <element signature="e#18341#18385#0" expanded="false" />
+            <element signature="e#18391#18501#0" expanded="false" />
+            <element signature="e#18396#18497#0" expanded="false" />
+            <element signature="e#18413#18460#0" expanded="false" />
+            <element signature="e#18464#18492#0" expanded="false" />
+            <element signature="e#18503#18549#0" expanded="false" />
+            <element signature="e#18551#18673#0" expanded="false" />
+            <element signature="e#18675#18814#0" expanded="false" />
+            <element signature="e#18816#18871#0" expanded="false" />
+            <element signature="e#18873#18928#0" expanded="false" />
+            <element signature="e#18930#18991#0" expanded="false" />
+            <element signature="e#18993#19056#0" expanded="false" />
+            <element signature="e#19058#19110#0" expanded="false" />
+            <element signature="e#19112#19705#0" expanded="false" />
+            <element signature="e#19148#19289#0" expanded="false" />
+            <element signature="e#19206#19261#0" expanded="false" />
+            <element signature="e#19295#19332#0" expanded="false" />
+            <element signature="e#19382#19622#0" expanded="false" />
+            <element signature="e#19396#19510#0" expanded="false" />
+            <element signature="e#19418#19466#0" expanded="false" />
+            <element signature="e#19472#19505#0" expanded="false" />
+            <element signature="e#19641#19670#0" expanded="false" />
+            <element signature="e#19676#19705#0" expanded="false" />
+            <element signature="e#19707#20207#0" expanded="false" />
+            <element signature="e#19746#19791#0" expanded="false" />
+            <element signature="e#19851#20184#0" expanded="false" />
+            <element signature="e#19865#19979#0" expanded="false" />
+            <element signature="e#19887#19935#0" expanded="false" />
+            <element signature="e#19941#19974#0" expanded="false" />
+            <element signature="e#20014#20133#0" expanded="false" />
+            <element signature="e#20066#20128#0" expanded="false" />
+            <element signature="e#20209#20484#0" expanded="false" />
+            <element signature="e#20275#20435#0" expanded="false" />
+            <element signature="e#20296#20381#0" expanded="false" />
+            <element signature="e#20387#20431#0" expanded="false" />
+            <element signature="e#20441#20484#0" expanded="false" />
+            <element signature="e#20486#21780#0" expanded="false" />
+            <element signature="e#20523#21233#0" expanded="false" />
+            <element signature="e#20539#21229#0" expanded="false" />
+            <element signature="e#20695#21229#0" expanded="false" />
+            <element signature="e#20751#20781#0" expanded="false" />
+            <element signature="e#20802#20850#0" expanded="false" />
+            <element signature="e#20856#21173#0" expanded="false" />
+            <element signature="e#20863#20930#0" expanded="false" />
+            <element signature="e#21118#21167#0" expanded="false" />
+            <element signature="e#21252#21591#0" expanded="false" />
+            <element signature="e#21339#21394#0" expanded="false" />
+            <element signature="e#21451#21563#0" expanded="false" />
+            <element signature="e#21466#21514#0" expanded="false" />
+            <element signature="e#21597#21780#0" expanded="false" />
+            <element signature="e#21655#21752#0" expanded="false" />
+            <element signature="e#21670#21703#0" expanded="false" />
+            <element signature="e#21782#22129#0" expanded="false" />
+            <element signature="e#21802#21858#0" expanded="false" />
+            <element signature="e#21931#22115#0" expanded="false" />
+            <element signature="e#21936#22111#0" expanded="false" />
+            <element signature="e#21972#22106#0" expanded="false" />
+            <element signature="e#22131#22210#0" expanded="false" />
+            <element signature="e#22212#22239#0" expanded="false" />
+            <element signature="n#!!block;n#intFromArg#0" expanded="false" />
+            <element signature="e#22480#23122#0" expanded="false" />
+            <element signature="e#22546#23041#0" expanded="false" />
+            <element signature="e#22570#23037#0" expanded="false" />
+            <element signature="e#22624#22787#0" expanded="false" />
+            <element signature="e#22744#22787#0" expanded="false" />
+            <element signature="e#22791#22995#0" expanded="false" />
+            <element signature="e#22952#22995#0" expanded="false" />
+            <element signature="e#23086#23119#0" expanded="false" />
+            <element signature="e#23134#23202#0" expanded="false" />
+            <element signature="n#!!block;n#parseArgNumber#0" expanded="false" />
+            <element signature="e#23673#23698#0" expanded="false" />
+            <element signature="e#23760#23974#0" expanded="false" />
+            <element signature="e#23784#23971#0" expanded="false" />
+            <element signature="e#23854#23887#0" expanded="false" />
+            <element signature="e#23998#24092#0" expanded="false" />
+            <element signature="n#!!block;n#argNumber#0" expanded="false" />
+            <element signature="e#24413#24443#0" expanded="false" />
+            <element signature="e#24550#24584#0" expanded="false" />
+            <element signature="n#!!block;n#badArgNum#0" expanded="false" />
+            <element signature="n#!!block;n#missingArg#0" expanded="false" />
+            <element signature="n#!!block;n#doPrintf#0" expanded="false" />
+            <element signature="e#25181#28542#0" expanded="false" />
+            <element signature="e#25252#25264#0" expanded="false" />
+            <element signature="e#25280#25323#0" expanded="false" />
+            <element signature="e#25338#25388#0" expanded="false" />
+            <element signature="e#25499#26389#0" expanded="false" />
+            <element signature="e#25522#26385#0" expanded="false" />
+            <element signature="e#25536#25568#0" expanded="false" />
+            <element signature="e#25572#25651#0" expanded="false" />
+            <element signature="e#25655#25686#0" expanded="false" />
+            <element signature="e#25690#25784#0" expanded="false" />
+            <element signature="e#25788#25820#0" expanded="false" />
+            <element signature="e#25824#26380#0" expanded="false" />
+            <element signature="e#25837#25898#0" expanded="false" />
+            <element signature="e#26001#26281#0" expanded="false" />
+            <element signature="e#26020#26191#0" expanded="false" />
+            <element signature="e#26557#26958#0" expanded="false" />
+            <element signature="e#26654#26698#0" expanded="false" />
+            <element signature="e#26703#26760#0" expanded="false" />
+            <element signature="e#26814#26932#0" expanded="false" />
+            <element signature="e#26964#27111#0" expanded="false" />
+            <element signature="e#27064#27107#0" expanded="false" />
+            <element signature="e#27175#27819#0" expanded="false" />
+            <element signature="e#27201#27245#0" expanded="false" />
+            <element signature="e#27346#27655#0" expanded="false" />
+            <element signature="e#27497#27555#0" expanded="false" />
+            <element signature="e#27582#27627#0" expanded="false" />
+            <element signature="e#27661#27815#0" expanded="false" />
+            <element signature="e#27753#27810#0" expanded="false" />
+            <element signature="e#27838#27909#0" expanded="false" />
+            <element signature="e#27925#27974#0" expanded="false" />
+            <element signature="e#28037#28539#0" expanded="false" />
+            <element signature="e#28048#28155#0" expanded="false" />
+            <element signature="e#28158#28198#0" expanded="false" />
+            <element signature="e#28201#28301#0" expanded="false" />
+            <element signature="e#28304#28481#0" expanded="false" />
+            <element signature="e#28484#28535#0" expanded="false" />
+            <element signature="e#28545#28612#0" expanded="false" />
+            <element signature="e#28771#29126#0" expanded="false" />
+            <element signature="e#28860#29100#0" expanded="false" />
+            <element signature="e#28874#28920#0" expanded="false" />
+            <element signature="e#28938#28982#0" expanded="false" />
+            <element signature="e#28988#29096#0" expanded="false" />
+            <element signature="n#!!block;n#doPrint#0" expanded="false" />
+            <element signature="e#29219#29468#0" expanded="false" />
+            <element signature="e#29389#29418#0" expanded="false" />
+            <element signature="e#29472#29542#0" expanded="false" />
+            <element signature="n#!!block;n#doPrintln#0" expanded="false" />
+            <element signature="e#29655#29728#0" expanded="false" />
+            <element signature="e#29673#29702#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/go/parser/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/bool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1505">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/types/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#String#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/bits16num.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/binary/binary.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/bits8num.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/math/unsafe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/float64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/bits64num_int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/bits32num_int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/templates.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/float32.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/functions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/pack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="84" column="61" lean-forward="true" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+          <folding>
+            <element signature="e#14#91#0" expanded="true" />
+            <element signature="n#!!block;n#New#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pack/pack_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

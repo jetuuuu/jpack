@@ -46,10 +46,8 @@ func (p Pack) generateSizeFunction() {
 		case types.String:
 			fmt.Fprintln(p.b, "size += 4")
 			fmt.Fprintf(p.b, "size += uint64(len(%s.%s))\n", p.objectName, pair.Name)
-		case types.Int8, types.Bool, types.Uint8, types.Byte, types.Int8_P, types.Uint8_P, types.Byte_P, types.Bool_P:
-			fmt.Fprintln(p.b, "size += 1")
-		case types.Int32, types.Uint32, types.Float32, types.Int32_P, types.Uint32_P, types.Float32_P:
-			fmt.Fprintln(p.b, "size += 4")
+		default:
+			fmt.Fprintf(p.b, "size += %d\n", typeToFunc[pair.Type].size)
 		}
 	}
 
@@ -81,7 +79,6 @@ func (p Pack) generateUnmarshalFunction() {
 	fmt.Fprintln(p.b, "offset := 0")
 	for _, pair := range p.fieldToType {
 		v := p.objectName + "." + pair.Name
-
 		fmt.Fprintln(p.b, typeToFunc[pair.Type].decode(pair))
 	}
 

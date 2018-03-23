@@ -63,8 +63,7 @@ func (p Pack) generateMarshalFunction() {
 
 	fmt.Fprintln(p.b, "offset := 0")
 	for _, pair := range p.fieldToType {
-		v := p.objectName + "." + pair.Name
-
+		pair.Name += p.objectName + "." + pair.Name
 		fmt.Fprintln(p.b, typeToFunc[pair.Type].encode(pair))
 	}
 	fmt.Fprintln(p.b, "return b, nil")
@@ -78,7 +77,7 @@ func (p Pack) generateUnmarshalFunction() {
 
 	fmt.Fprintln(p.b, "offset := 0")
 	for _, pair := range p.fieldToType {
-		v := p.objectName + "." + pair.Name
+		pair.Name += p.objectName + "." + pair.Name
 		fmt.Fprintln(p.b, typeToFunc[pair.Type].decode(pair))
 	}
 

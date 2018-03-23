@@ -46,6 +46,7 @@ var typeToFunc = map[types.FieldType]F{
 	types.Float64_P: {packPointerToFloat64, unpackPointerToFloat64, 8},
 
 	types.String: {packString, unpackString, 4},
+	types.Time: {packTime, unpackTime, 15},
 }
 
 

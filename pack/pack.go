@@ -1,25 +1,20 @@
 package pack
 
 import (
-	"text/template"
 	"bytes"
 	"fmt"
 	"github.com/jetuuuu/jpack/types"
+	"github.com/jetuuuu/jpack/field"
 )
-
-type FieldInfo struct {
-	Name string
-	Type types.FieldType
-}
 
 type Pack struct {
 	structName string
 	objectName string
-	fieldToType []FieldInfo
+	fieldToType []field.FieldInfo
 	b *bytes.Buffer
 }
 
-func New(sName string, field2Type []FieldInfo) Pack {
+func New(sName string, field2Type []field.FieldInfo) Pack {
 	return Pack{
 		structName: sName,
 		objectName: "_jpack_obj_" + sName,

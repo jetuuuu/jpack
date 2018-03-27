@@ -1,11 +1,13 @@
 package pack
 
+import "github.com/jetuuuu/jpack/field"
+
 const bits32TmplW = `
 {
-    b[offset] = byte({{.V}})
-	b[offset + 1] = byte({{.V}} >> 8)
-	b[offset + 2] = byte({{.V}} >> 16)
-	b[offset + 3] = byte({{.V}} >> 24)
+    b[offset] = byte({{.Name}})
+	b[offset + 1] = byte({{.Name}} >> 8)
+	b[offset + 2] = byte({{.Name}} >> 16)
+	b[offset + 3] = byte({{.Name}} >> 24)
 
 	offset += 4
 }
@@ -13,7 +15,7 @@ const bits32TmplW = `
 
 const bits32TmplR = `
 {
-	{{.V}} = {{.Type}}(uint32(b[offset]) | uint32(b[offset+1])<<8 | uint32(b[offset+2])<<16 | uint32(b[offset+3])<<24)
+	{{.Name}} = {{.Type}}(uint32(b[offset]) | uint32(b[offset+1])<<8 | uint32(b[offset+2])<<16 | uint32(b[offset+3])<<24)
 	offset += 4
 }
 `
@@ -21,23 +23,23 @@ const bits32TmplR = `
 const bits32PTmplR = `
 {
 	value := {{.Type}}(uint32(b[offset]) | uint32(b[offset+1])<<8 | uint32(b[offset+2])<<16 | uint32(b[offset+3])<<24)
-	{{.V}} = &value
+	{{.Name}} = &value
 	offset += 4
 }
 `
 
-func pack32BitsNum(f FieldInfo) string {
+func pack32BitsNum(f field.FieldInfo) string {
 	return useTmpl(bits32TmplW, f)
 }
 
-func packPointerTo32BitsNum(f FieldInfo) string {
+func packPointerTo32BitsNum(f field.FieldInfo) string {
 	return pack32BitsNum(f)
 }
 
-func unpack32BitsNum(f FieldInfo) string {
+func unpack32BitsNum(f field.FieldInfo) string {
 	return useTmpl(bits32TmplR, f)
 }
 
-func unpackPointerTo32BitsNum(f FieldInfo) string {
+func unpackPointerTo32BitsNum(f field.FieldInfo) string {
 	return useTmpl(bits32PTmplR, f)
 }

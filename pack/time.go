@@ -1,9 +1,11 @@
 package pack
 
+import "github.com/jetuuuu/jpack/field"
+
 const timeTmplW = `
 {
 	var timeBinary []byte
-	timeBinary, err = {{.V}}.MarshalBinary()
+	timeBinary, err = {{.Name}}.MarshalBinary()
 	if err != nil {
 		return nil, err
 	}
@@ -15,7 +17,7 @@ const timeTmplW = `
 
 const timeTmplR = `
 {
-	err = {{.V}}.UnmarshalBinary(b[offset:offset + 15])
+	err = {{.Name}}.UnmarshalBinary(b[offset:offset + 15])
 	if err != nil {
 		return nil, err
 	}
@@ -23,10 +25,10 @@ const timeTmplR = `
 }
 `
 
-func packTime(f FieldInfo) string {
+func packTime(f field.FieldInfo) string {
 	return useTmpl(timeTmplW, f)
 }
 
-func unpackTime(f FieldInfo) string {
+func unpackTime(f field.FieldInfo) string {
 	return useTmpl(timeTmplR, f)
 }

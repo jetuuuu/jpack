@@ -4,11 +4,12 @@ import (
 	"github.com/jetuuuu/jpack/types"
 	"bytes"
 	"text/template"
+	"github.com/jetuuuu/jpack/field"
 )
 
 type F struct {
-	encode func(v FieldInfo) string
-	decode func(v FieldInfo) string
+	encode func(v field.FieldInfo) string
+	decode func(v field.FieldInfo) string
 	size uint
 }
 
@@ -50,7 +51,7 @@ var typeToFunc = map[types.FieldType]F{
 }
 
 
-func useTmpl(tmpl string, v FieldInfo) string {
+func useTmpl(tmpl string, v field.FieldInfo) string {
 	w := bytes.NewBuffer(nil)
 	t := template.Must(template.New("template").Parse(tmpl))
 	t.Execute(w, v)

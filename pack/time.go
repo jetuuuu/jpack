@@ -5,7 +5,7 @@ import "github.com/jetuuuu/jpack/field"
 const timeTmplW = `
 {
 	var timeBinary []byte
-	timeBinary, err = {{.Name}}.MarshalBinary()
+	timeBinary, err := {{.Name}}.MarshalBinary()
 	if err != nil {
 		return nil, err
 	}
@@ -17,9 +17,9 @@ const timeTmplW = `
 
 const timeTmplR = `
 {
-	err = {{.Name}}.UnmarshalBinary(b[offset:offset + 15])
+	err := {{.Name}}.UnmarshalBinary(b[offset:offset + 15])
 	if err != nil {
-		return nil, err
+		return err
 	}
 	offset += 15
 }

@@ -78,6 +78,8 @@ func (f FieldType) String() string {
 		return "uint64"
 	case Uint8:
 		return "uint8"
+	case Time:
+		return "time"
 	case Internal:
 		return "internal"
 	default:
@@ -119,6 +121,8 @@ func FromString(s string) FieldType {
 		return Uint64
 	case "uint8":
 		return Uint8
+	case "time":
+		return Time
 	case "internal":
 		return Internal
 	default:

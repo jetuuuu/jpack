@@ -60,7 +60,11 @@ func (p Pack) generateMarshalFunction() {
 	for _, pair := range p.fieldToType {
 		pair.Name = p.objectName + "." + pair.Name
 		fmt.Println(pair)
-		fmt.Fprintln(p.b, typeToFunc[pair.Type].encode(pair))
+		f, ok := typeToFunc[pair.Type]
+		if ok {
+			fmt.Fprintln(p.b, f.encode(pair))
+		}
+
 	}
 	fmt.Fprintln(p.b, "return b, nil")
 	fmt.Fprintln(p.b, "}")
@@ -69,14 +73,18 @@ func (p Pack) generateMarshalFunction() {
 
 func (p Pack) generateUnmarshalFunction() {
 	fmt.Fprintln(p.b, "//unmarshal struct " + p.structName + " to bytes")
-	fmt.Fprintf(p.b, "func (%s *%s) Unmarshal(b []byte) {\n", p.objectName, p.structName)
+	fmt.Fprintf(p.b, "func (%s *%s) Unmarshal(b []byte) error {\n", p.objectName, p.structName)
 
 	fmt.Fprintln(p.b, "offset := 0")
 	for _, pair := range p.fieldToType {
 		pair.Name = p.objectName + "." + pair.Name
-		fmt.Fprintln(p.b, typeToFunc[pair.Type].decode(pair))
+		f, ok := typeToFunc[pair.Type]
+		if ok {
+			fmt.Fprintln(p.b, f.decode(pair))
+		}
 	}
 
+	fmt.Fprintln(p.b, "retrun nil")
 	fmt.Fprintln(p.b, "}")
 	fmt.Fprintln(p.b, "\n")
 }

@@ -2,8 +2,6 @@ package pack
 
 import "github.com/jetuuuu/jpack/field"
 
-const importFloat = "import \"math\""
-
 const float64W = `
 {
 	f := math.Float64bits({{.Name}})

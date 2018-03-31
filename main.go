@@ -8,6 +8,7 @@ import (
 	"github.com/jetuuuu/jpack/field"
 	"github.com/jetuuuu/jpack/types"
 	"github.com/jetuuuu/jpack/pack"
+	"os"
 )
 
 
@@ -23,8 +24,10 @@ func main() {
 	v := &visitor{structures: make(map[string][]field.FieldInfo)}
 	ast.Walk(v, f)
 	fmt.Println(v.structures)
-	p := pack.New("A", v.structures["A"])
-	fmt.Println(p.Generate())
+	p := pack.New("main", "A", v.structures["A"])
+	file, _ := os.Create("main_jpack_generated.go")
+	defer file.Close()
+	file.WriteString(p.Generate())
 }
 
 type visitor struct {

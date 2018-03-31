@@ -8,14 +8,16 @@ import (
 )
 
 type Pack struct {
+	pkg string
 	structName string
 	objectName string
 	fieldToType []field.FieldInfo
 	b *bytes.Buffer
 }
 
-func New(sName string, field2Type []field.FieldInfo) Pack {
+func New(pkg, sName string, field2Type []field.FieldInfo) Pack {
 	return Pack{
+		pkg: pkg,
 		structName: sName,
 		objectName: "_jpack_obj_" + sName,
 		fieldToType: field2Type,
@@ -24,10 +26,18 @@ func New(sName string, field2Type []field.FieldInfo) Pack {
 }
 
 func (p Pack) Generate() string {
+	p.generateHeader()
 	p.generateSizeFunction()
 	p.generateMarshalFunction()
 	p.generateUnmarshalFunction()
+
 	return p.b.String()
+}
+
+func (p Pack) generateHeader() {
+	fmt.Fprintln(p.b, "package " + p.pkg)
+	fmt.Fprintln(p.b, "import \"math\"")
+	fmt.Fprintln(p.b, "var _ = math.NaN()\n")
 }
 
 func (p Pack) generateSizeFunction() {
@@ -84,7 +94,7 @@ func (p Pack) generateUnmarshalFunction() {
 		}
 	}
 
-	fmt.Fprintln(p.b, "retrun nil")
+	fmt.Fprintln(p.b, "return nil")
 	fmt.Fprintln(p.b, "}")
 	fmt.Fprintln(p.b, "\n")
 }

@@ -9,25 +9,38 @@ import (
 	"github.com/jetuuuu/jpack/types"
 	"github.com/jetuuuu/jpack/pack"
 	"os"
+	"flag"
+	"path"
 )
 
 
 func main() {
+	pkgPtr := flag.String("pkg", "", "pkg name")
+	flag.Parse()
+
+	if pkgPtr == nil || *pkgPtr == "" {
+		fmt.Println("Pkg must be not empty string")
+		return
+	}
+
 	fset := token.NewFileSet()
-	path := "task.go"
-	f, err := parser.ParseFile(fset, path, nil, parser.ParseComments)
+	pkgs, err := parser.ParseDir(fset, *pkgPtr, nil, parser.ParseComments)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 
-	v := &visitor{structures: make(map[string][]field.FieldInfo)}
-	ast.Walk(v, f)
-	fmt.Println(v.structures)
-	p := pack.New("main", "A", v.structures["A"])
-	file, _ := os.Create("main_jpack_generated.go")
-	defer file.Close()
-	file.WriteString(p.Generate())
+	for name, pkg := range pkgs {
+		v := &visitor{structures: make(map[string][]field.FieldInfo)}
+		ast.Walk(v, pkg)
+		fmt.Println(v.structures)
+		for structName, s := range v.structures {
+			p := pack.New(name, structName, s)
+			file, _ := os.Create(  path.Join(*pkgPtr, name + "_" + structName + "_jpack_generated.go"))
+			defer file.Close()
+			file.WriteString(p.Generate())
+		}
+	}
 }
 
 type visitor struct {

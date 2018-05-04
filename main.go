@@ -1,18 +1,18 @@
 package main
 
 import (
+	"flag"
 	"fmt"
-	"go/token"
 	"go/ast"
 	"go/parser"
-	"github.com/jetuuuu/jpack/field"
-	"github.com/jetuuuu/jpack/types"
-	"github.com/jetuuuu/jpack/pack"
+	"go/token"
 	"os"
-	"flag"
 	"path"
-)
 
+	"github.com/jetuuuu/jpack/field"
+	"github.com/jetuuuu/jpack/pack"
+	"github.com/jetuuuu/jpack/types"
+)
 
 func main() {
 	pkgPtr := flag.String("pkg", "", "pkg name")
@@ -36,7 +36,7 @@ func main() {
 		fmt.Println(v.structures)
 		for structName, s := range v.structures {
 			p := pack.New(name, structName, s)
-			file, _ := os.Create(  path.Join(*pkgPtr, name + "_" + structName + "_jpack_generated.go"))
+			file, _ := os.Create(path.Join(*pkgPtr, name+"_"+structName+"_jpack_generated.go"))
 			defer file.Close()
 			file.WriteString(p.Generate())
 		}
@@ -44,12 +44,12 @@ func main() {
 }
 
 type visitor struct {
-	imports []Import
+	imports    []Import
 	structures map[string][]field.FieldInfo
 }
 
 type Import struct {
-	Path string
+	Path  string
 	Alias string
 }
 
@@ -84,15 +84,20 @@ func (v *visitor) Visit(node ast.Node) (w ast.Visitor) {
 		for _, l := range fields.List {
 			lt := l.Type
 			indent, ok := lt.(*ast.Ident)
+			fmt.Println("indent_1: ", indent)
 			if !ok {
-				selExpt, ok  := lt.(*ast.SelectorExpr)
+				selExpt, ok := lt.(*ast.SelectorExpr)
+				fmt.Println("selExpt: ", selExpt.Sel.Name)
 				if ok {
 					indent, ok = selExpt.X.(*ast.Ident)
+					fmt.Println("indent_2: ", indent)
 					if ok {
 						if selExpt.Sel.Name == "Time" {
 							if _, ok := findImport(v.imports, indent.Name); ok || indent.Name == "time" {
 								indent.Name = "time"
 							}
+						} else if selExpt.Sel.Name == "Duration" && indent.Name == "time" {
+							indent.Name = "time.Duration"
 						}
 					}
 				}
@@ -101,7 +106,7 @@ func (v *visitor) Visit(node ast.Node) (w ast.Visitor) {
 				}
 			}
 			for _, n := range l.Names {
-				v.structures[ts.Name.Name] = append(v.structures[ts.Name.Name], field.FieldInfo{Name:n.Name, Type: types.FromString(indent.Name)})
+				v.structures[ts.Name.Name] = append(v.structures[ts.Name.Name], field.FieldInfo{Name: n.Name, Type: types.FromString(indent.Name)})
 			}
 		}
 	case *ast.Comment:

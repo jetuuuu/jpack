@@ -36,6 +36,7 @@ const (
 	Uint8_P
 	Time
 	Time_P
+	TimeDuration
 	Map
 	Map_P
 
@@ -80,6 +81,8 @@ func (f FieldType) String() string {
 		return "uint8"
 	case Time:
 		return "time"
+	case TimeDuration:
+		return "time.Duration"
 	case Internal:
 		return "internal"
 	default:
@@ -123,6 +126,8 @@ func FromString(s string) FieldType {
 		return Uint8
 	case "time":
 		return Time
+	case "time.Duration":
+		return TimeDuration
 	case "internal":
 		return Internal
 	default:

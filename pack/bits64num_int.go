@@ -19,14 +19,14 @@ const bits64TmplW = `
 
 const bits64TmplR = `
 {
-	{{.Name}} = {{.Type}}(uint64(b[0]) | uint64(b[1])<<8 | uint64(b[2])<<16 | uint64(b[3])<<24 | uint64(b[4])<<32 | uint64(b[5])<<40 | uint64(b[6])<<48 | uint64(b[7])<<56)
+	{{.Name}} = {{.Type}}(uint64(b[offset]) | uint64(b[offset+1])<<8 | uint64(b[offset+2])<<16 | uint64(b[offset+3])<<24 | uint64(b[offset+4])<<32 | uint64(b[offset+5])<<40 | uint64(b[offset+6])<<48 | uint64(b[offset+7])<<56)
 	offset += 8
 }
 `
 
 const bits64PTmplR = `
 {
-	value := {{.Type}}(uint64(b[0]) | uint64(b[1])<<8 | uint64(b[2])<<16 | uint64(b[3])<<24 | uint64(b[4])<<32 | uint64(b[5])<<40 | uint64(b[6])<<48 | uint64(b[7])<<56)
+	value := {{.Type}}(uint64(b[offset]) | uint64(b[offset+1])<<8 | uint64(b[offset+2])<<16 | uint64(b[offset+3])<<24 | uint64(b[offset+4])<<32 | uint64(b[offset+5])<<40 | uint64(b[offset+6])<<48 | uint64(b[offset+7])<<56)
 	{{.Name}} = &value
 	offset += 8
 }
